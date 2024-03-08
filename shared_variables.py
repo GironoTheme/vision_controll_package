@@ -2,6 +2,8 @@ from pathlib import Path
 
 
 disk_with_tesseract = 'E'
+name_of_window = 'Your window name'
+
 
 
 def find_path_to_folder(folder):

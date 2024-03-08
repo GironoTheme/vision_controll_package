@@ -1,13 +1,13 @@
 import win32gui
 import win32com.client
 import win32con
-
+from ..shared_variables import name_of_window
 
 class Windows:
     """Класс для работы с окнами"""
 
     def __init__(self):
-        self.NAME_OF_WINDOW = 'New World'
+        self.NAME_OF_WINDOW = name_of_window
 
     def switch_windows(self, func):
         """Функция для переключения окон\n
