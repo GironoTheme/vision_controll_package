@@ -1,5 +1,5 @@
 from PIL import Image as pil
-from TraderBot.shared_variables import path_to_pytesseract
+from ..shared_variables import path_to_pytesseract
 import PIL.ImageGrab
 import numpy as np
 import cv2
